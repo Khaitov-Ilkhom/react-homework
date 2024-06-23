@@ -1,0 +1,40 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    max-width: 1400px;
+    width: 100%;
+    min-height: 600px;
+    background-image: url("../images/advertising.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.section-box {
+    max-width: 400px;
+    min-height: 200px;
+    margin: 250px 0 0 80px;
+}
+.section-box button {
+    padding: 8px 24px;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.section-box h3 {
+    margin: 20px 0;
+}
+.user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

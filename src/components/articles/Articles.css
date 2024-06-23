@@ -1,0 +1,22 @@
+.articles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.article {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.article-img {
+    max-width: 500px;
+    width: 100%;
+}
+.body {
+    max-width: 500px;
+    margin: 0 0 80px 30px;
+}
